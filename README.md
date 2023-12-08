@@ -26,11 +26,11 @@ As of now, the project utilizes the ChatGPT 3.5 Turbo base model without fine-tu
 
 ## Getting Started
 
-To run the project locally, follow these steps:
-
 1. Clone the repository: `git clone https://github.com/yourusername/your-repo.git`
 2. Install dependencies: `pip install -r requirements.txt`
-3. Run the Streamlit app: `streamlit run demo_Langchain.py`
+3. Create a `.env` file in the project root directory.
+4. Add your OpenAI API key to the `.env` file: `OPENAI_API_KEY=your-api-key`
+5. Run the Streamlit app: `streamlit run demo_Langchain.py`
 
 Note: Additional setup might be required for the Microsoft Autogen architecture, and this feature is a work in progress.
 
